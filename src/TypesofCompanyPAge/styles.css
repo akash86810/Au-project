@@ -1,0 +1,125 @@
+/* Reset some basic elements */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+  padding: 0px;
+}
+
+/* Style the container */
+.container {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Style the table of contents */
+.toc {
+  width: 25%;
+  padding-right: 20px;
+  border-right: 1px solid #ddd;
+  position: relative;
+}
+
+.toc h2 {
+  font-size: 1.5em;
+  color: #004d99;
+  margin-bottom: 10px;
+}
+
+.toc ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.toc ul li {
+  margin-bottom: 10px;
+}
+
+.toc ul li a {
+  color: #130a63;
+  text-decoration: none;
+  font-size: 1em;
+  transition: color 0.3s;
+}
+
+.toc ul li a:hover {
+  color: #004d99;
+}
+
+/* Style the main content */
+.content {
+  width: 75%;
+  padding-left: 20px;
+}
+
+.content h1 {
+  color: #004d99;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.content h2 {
+  color: #130a63;
+  font-size: 2em;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #004d99;
+  padding-bottom: 5px;
+}
+
+.content h3 {
+  color: #130a63;
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.content p {
+  margin-bottom: 15px;
+}
+
+.content ul,
+.content ol {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.content ul li,
+.content ol li {
+  margin-bottom: 10px;
+}
+
+/* Style the nested lists */
+.content ul ul {
+  list-style-type: circle;
+  margin-left: 20px;
+}
+
+.content ul ul li {
+  list-style-type: circle;
+}
+
+/* Style the links */
+.content a {
+  color: blueviolet;
+}
